@@ -1,0 +1,102 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.explain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.entrance{
+    transition: 1s ease-in;
+    color: aliceblue;
+    font-size: 36px;
+    text-shadow: 8px 8px 8px #FF7373;
+}
+.entrance:hover{
+    transition: 0.5s;
+    text-shadow: 4px 4px #FF7373;
+}
+.explain-child1{
+    align-self: center;
+    max-width: 70%;
+    max-height: 200px;
+}
+.childth1{
+    transition: 1s ease-in;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-size: 1.5vw;
+}
+.childth2{
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+    font-family: 'Jost', sans-serif;
+}
+.childth2:hover{
+    transition: 0.3s ease-in;
+    font-size: 1.4vw;
+    color: bisque;
+}
+.childth2:active{
+    transition: 0.7s ease-out;
+    font-size: 1.3vw;
+    color: #FF7373;
+}
+#crew{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #2D5F7C;
+    border: 2px solid #2D5F7C;
+    border-radius: 0.6rem;
+    box-shadow: 8px 8px #FF7373;
+    width:  20%;
+}
+.card:hover{
+    transition: .7s ease-in;
+    border-radius: 0.8rem;
+    box-shadow: 19px 19px #FF7373;
+}
+.userImg{
+    width: 30%;
+    height: 90px;
+    border: 2px solid #2D5F7C;
+    border-radius: 50%;
+    align-self: center;
+    background: #FF7373;
+    margin-top: 10px;
+}
+.nameSurename{
+    color: aliceblue;
+    font-size: 36px;
+}
+.age,.position{
+    color: #FF7373;
+}
+.contain{
+    width: 70%;
+    margin: auto;
+    border: 2px solid white;
+    color: #FF7373;
+}
+.description{
+    word-wrap: break-word;
+    color: #FF7373;
+}
+#team{
+    align-self: center;
+    color: #2D5F7C;
+    text-shadow: 2px 2px 2px aliceblue;
+}
